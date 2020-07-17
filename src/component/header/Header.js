@@ -2,9 +2,9 @@ import React from 'react'
 
 const Header = () => {
 	return (
-		<header>
+		<header data-test="headerComponent">
 			<div className="wrap">
-				<div className="app-name">
+				<div className="app-name" data-test="headerAppName">
 					TestApp
 				</div>
 			</div>
