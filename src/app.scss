@@ -1,0 +1,39 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Mulish', sans-serif;
+	color: #121212;
+}
+
+.main{
+	width: 100%;
+	max-width: 980px;
+	margin: 20px auto 80px;
+	padding: 0 10px;
+
+}
+
+header{
+	display: bloack;
+	width: 100%;
+	height: 50px;
+	margin: 0 auto;
+	padding: 0 10px;
+	background-color: #81ABEE;
+
+	.wrap{
+		position: relative;
+		display: block;
+		width: 100%;
+		height: 100%;
+		margin: 0 auto;
+		max-width: 980px;
+		.app-name{
+			display: block;
+			width: 120px;
+			transform: translateY(50%);
+			font-size: 1.2rem;
+			color: #ffffff;
+		}
+	}
+}
