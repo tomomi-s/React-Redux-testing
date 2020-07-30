@@ -27,7 +27,7 @@ function App({posts, fetchPosts}) {
   }
 
   return (
-    <div className="App">
+    <div className="App" data-test="AppComponent">
       <Header />
       <section className="main">
       	<Headline header="Posts" desc="Click the button to render the posts!" tempArr={tempArr}/>
