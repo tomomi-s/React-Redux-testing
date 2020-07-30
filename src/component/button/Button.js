@@ -8,7 +8,8 @@ const Button = ({buttonText, emitEvent}) => {
 		}
 	}
 	return (
-		<button 
+		<button
+			className="render-btn" 
 			data-test="buttonCompnent"
 			onClick={submitEvent}
 		>
